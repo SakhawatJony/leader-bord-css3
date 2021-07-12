@@ -6,6 +6,72 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/*---------------=--
+ my hedding styles
+--------------------
+ */
+ nav{
+    display: flex;
+     width: 1440px;
+     height: 94px;
+     background: #562EFF;
+ }
+ 
+ 
+ nav .nav-logo img{
+     height: 51px;
+     width: 41px;
+     color: #FFFFFF;
+     position: absolute;
+     padding-left: 285px;
+    padding-top: 30px;
+ }
+ nav .nav-logo h2{
+     position: absolute;
+     width: 54px;
+     height: 36px;
+     padding-left: 342px;
+     padding-top: 33px;
+     font-size: 24px;
+     color: #FFFFFF;
+     text-align: center;
+     margin: 7px;
+       
+ }
+ .button:hover a{
+    background-color: rgb(114, 245, 245);
+    font-weight: 700;
+    color:black;
+    border-radius: 5px;
+    padding:5px;
+    transition: 2s;
+
+ }
+ .button{
+     padding-left: 800px;
+     padding-top: 35px;
+     font-weight: 700;
+    
+ }
+ .button a{
+     text-decoration: none;
+     font-size: 16px;
+     width: 48px;
+     height: 24px;
+     color:#FFFFFF;
+    margin: 7px;
+    
+     
+ }
+ .button img{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1050px;
+    top: 23px;
+    margin: 7px;
+ }
+ /* my hedding styles end*/
 main{
     display: flex;
    flex-direction: column;
